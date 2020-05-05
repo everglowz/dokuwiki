@@ -3,6 +3,9 @@
 name: Publish Docker image
 
 on:
+  # https://goobar.io/2019/12/07/manually-trigger-a-github-actions-workflow/
+  repository_dispatch:
+    types: do-something
   schedule:
     - cron: '0 20 * * 0'
 
