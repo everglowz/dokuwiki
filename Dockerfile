@@ -1,4 +1,4 @@
-FROM linuxserver/dokuwiki:latest
+FROM linuxserver/dokuwiki:2018-04-22c-ls41
 
 RUN \
  echo "**** install more packages ****" && \
